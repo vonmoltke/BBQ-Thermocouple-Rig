@@ -42,6 +42,9 @@
 								<option id="de.innot.avreclipse.compiler.option.optimize.packstruct.2107059000" name="Pack structs (-fpack-struct)" superClass="de.innot.avreclipse.compiler.option.optimize.packstruct" value="false" valueType="boolean"/>
 								<option id="de.innot.avreclipse.compiler.option.language.ubitfields.2127552889" name="bitfields are unsigned (-funsigned-bitfields)" superClass="de.innot.avreclipse.compiler.option.language.ubitfields" value="false" valueType="boolean"/>
 								<option id="de.innot.avreclipse.compiler.option.language.uchar.1263612745" name="char is unsigned (-funsigned-char)" superClass="de.innot.avreclipse.compiler.option.language.uchar" value="false" valueType="boolean"/>
+								<option id="de.innot.avreclipse.compiler.option.def.2046655716" superClass="de.innot.avreclipse.compiler.option.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="UBRRH"/>
+								</option>
 								<inputType id="de.innot.avreclipse.compiler.winavr.input.596188297" name="C Source Files" superClass="de.innot.avreclipse.compiler.winavr.input"/>
 							</tool>
 							<tool id="de.innot.avreclipse.tool.cppcompiler.app.release.505568716" name="AVR C++ Compiler" superClass="de.innot.avreclipse.tool.cppcompiler.app.release">
@@ -56,6 +59,9 @@
 								<option id="de.innot.avreclipse.cppcompiler.option.language.uchar.427685553" name="char is unsigned (-funsigned-char)" superClass="de.innot.avreclipse.cppcompiler.option.language.uchar" value="false" valueType="boolean"/>
 								<option id="de.innot.avreclipse.cppcompiler.option.optimize.shortenums.930072546" name="Short enums (-fshort-enums)" superClass="de.innot.avreclipse.cppcompiler.option.optimize.shortenums" value="false" valueType="boolean"/>
 								<option id="de.innot.avreclipse.cppcompiler.option.optimize.packstruct.952128343" name="Pack structs (-fpack-struct)" superClass="de.innot.avreclipse.cppcompiler.option.optimize.packstruct" value="false" valueType="boolean"/>
+								<option id="de.innot.avreclipse.cppcompiler.option.def.186646183" superClass="de.innot.avreclipse.cppcompiler.option.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="UBRRH"/>
+								</option>
 								<inputType id="de.innot.avreclipse.cppcompiler.input.263429859" superClass="de.innot.avreclipse.cppcompiler.input"/>
 							</tool>
 							<tool id="de.innot.avreclipse.tool.linker.winavr.app.release.850548328" name="AVR C Linker" superClass="de.innot.avreclipse.tool.linker.winavr.app.release"/>
