@@ -1,3 +1,24 @@
+/*
+ * Copyright 2011  Wayne Krug
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ *  OneWire.cpp obtained from <http://www.pjrc.com/teensy/td_libs_OneWire.html>
+ *  and written by Jim Studt and others.  See OneWire.cpp for full copyright
+ *  details.
+ */
+
 #include <WProgram.h>
 #include <HardwareSerial.h>
 #include "OneWire.h"
