@@ -23,6 +23,7 @@
 #include <HardwareSerial.h>
 #include "OneWire.h"
 #include "constants.h"
+#include "report.h"
 
 #define DEBUG
 

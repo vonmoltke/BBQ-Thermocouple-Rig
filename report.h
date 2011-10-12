@@ -16,28 +16,23 @@
  *  You should have received a copy of the GNU General Public License
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * Original version date: Oct 11, 2011
  *
- *  This file defines constants and enumerations used in the thermocouple rig
- *  control program.
+ * This header defines the structure and related constants that the controller
+ * uses to report ambient and thermocouple temperatures.
+ *
  */
+#ifndef REPORT_H_
+#define REPORT_H_
 
-#ifndef CONSTANTS_H_
-#define CONSTANTS_H_
+#include <inttypes.h>
 
-static const int8_t RESPONSE_BYTES = 9;
-static const int8_t RESPONSE_BUFFER_SIZE = 12;
-static const int8_t ADDRESS_SIZE = 8;
-static const int8_t TEMP_MSB = 1;
-static const int8_t TEMP_LSB = 0;
-// Minimum execution time of the main loop (ms)
-static const int LOOP_TIME = 1000;
-// 750ms delay required for the ambient temp sensor (12-bit conversion)
-static const int AMBIENT_SENSOR_DELAY = 750;
+static const int MAX_NUM_TC = 8;
 
-enum MESSAGES
+struct Temperature_Report
 {
-    END_OF_MESSAGE = 10,
-    READ_AMBIENT = 49, // ASCII 1
+    float ambient_temperature;
+    float thermocouple_temperatures[MAX_NUM_TC];
 };
 
-#endif /* CONSTANTS_H_ */
+#endif /* REPORT_H_ */
